@@ -1,4 +1,4 @@
-﻿
+﻿// Original website javascript
 
 function validateForm() {
     var username = document.getElementsById(username).value;
