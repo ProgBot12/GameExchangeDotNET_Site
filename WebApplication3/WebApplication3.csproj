@@ -1,8 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\AboutUS.cshtml" />
+    <Content Remove="Pages\Accounts.cshtml" />
+    <Content Remove="Pages\ContactUS.cshtml" />
+    <Content Remove="Pages\Menu.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\AboutUS.cshtml" />
+    <None Include="Pages\Accounts.cshtml" />
+    <None Include="Pages\ContactUS.cshtml" />
+    <None Include="Pages\Menu.cshtml" />
+  </ItemGroup>
 
 
 
